@@ -37,5 +37,6 @@ output:
   }
   close(con)
   rmarkdown::render("index.Rmd")
-  system('git add -A; git commit -m "added new roster"; git push origin master')
 }
+
+build_rmd()
